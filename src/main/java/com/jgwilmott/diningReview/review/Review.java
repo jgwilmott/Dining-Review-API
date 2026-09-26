@@ -42,4 +42,8 @@ public class Review {
     @Column(name="COMMENTS")
     @Getter @Setter
     private String comments;
+
+    @Column(name="STATUS")
+    @Getter @Setter
+    private ReviewStatus status;
 }
